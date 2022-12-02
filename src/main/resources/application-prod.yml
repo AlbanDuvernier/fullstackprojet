@@ -1,5 +1,5 @@
 spring:
   datasource:
     url: jdbc:postgresql://tcp-mo4.mogenius.io:27338/covid-db
-    username: posgres
+    username: postgres
     password: sudo

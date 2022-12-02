@@ -5,7 +5,7 @@ spring:
     url: jdbc:postgresql://localhost:5432/covid-db
     username: postgres
     password: sudo
-  liquidbase:
+  liquibase:
     enable: false
   jpa:
       database-platform: org.hibernate.dialect.PostgreSQLDialect
