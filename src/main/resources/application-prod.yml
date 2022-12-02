@@ -1,3 +1,5 @@
 spring:
   datasource:
     url: jdbc:postgresql://postgresql-otrmi9:5432/covid-db
+    username: {$POSTGRES_USER}
+    password: {$POSTGRES_PASSWORD}
